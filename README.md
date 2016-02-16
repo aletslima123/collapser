@@ -38,12 +38,12 @@ Estrutura HTML
 </div>
 ```
 
-...
+chamada javascript
 
-  colapser('#first-container button');
-  colapser('#second-container button', true); //segundo container virá aberto
-
-...
+```javascript
+colapser('#first-container button');
+colapser('#second-container button', true); //segundo container virá aberto
+```
 
 ## Como contribuir?
 
