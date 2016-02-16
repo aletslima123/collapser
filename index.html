@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Collapser example</title>
+	<script src="http://code.jquery.com/jquery-1.12.0.js"></script>
+	<script src="https://rawgit.com/aletslima123/collapser/master/collapser.js"></script>
+</head>
+<body>
+	<style>
+		body{
+			font-family: calibri;
+		}
+		h1{
+			color: #696969;
+			margin-bottom: 100px;
+		}
+		.wrapper{
+			width: 960px;
+			margin: 0 auto;
+		}
+		.collapser-container{
+			margin-bottom: 15px;
+		}
+		.collapser-button{
+			font-size: 18px;
+			border: 0;
+			background-color: #696969;
+			color: #fff;
+			border-radius: 5px;
+			padding: 10px 35px;
+			cursor: pointer;
+			outline: none;
+			text-transform: uppercase;
+			font-family: calibri;
+		}
+		.collapser-button:active{
+			background-color: #363636;
+		}
+		.collapser-content{
+			display: none;
+			overflow: hidden;
+			height: auto;
+			background-color: #EEE9E9;
+			width: 300px;
+			padding: 0 15px;
+			box-sizing: border-box;
+			border-radius: 5px;
+			color: #696969;
+		}
+
+	</style>
+	
+	<div class="wrapper">
+		<h1>Collapser</h1>
+		<div class="collapser-container" id="collapser-1">
+			<button class="collapser-button">Colapse!</button>
+			<div class="collapser-content">
+				<h3>Lorem Ipsum</h3>
+				<ul>
+					<li>Lorem</li>
+					<li>Lorem</li>
+					<li>Lorem</li>
+					<li>Lorem</li>
+				</ul>
+			</div>
+		</div>
+		<div class="collapser-container" id="collapser-2">
+			<button class="collapser-button">Colapse!</button>
+			<div class="collapser-content">
+				<h3>Lorem Ipsum</h3>
+				<ul>
+					<li>Lorem</li>
+					<li>Lorem</li>
+					<li>Lorem</li>
+					<li>Lorem</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+		$('#collapser-1 button').collapser();
+		$('#collapser-2 button').collapser({opened: true});
+	</script>
+</body>
+</html>
