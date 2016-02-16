@@ -1,4 +1,4 @@
-# Collpser [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/aletslima123/collapser/blob/master/LICENSE)
+# Collapser [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/aletslima123/collapser/blob/master/LICENSE)
 
 ## Recursos
 
@@ -8,6 +8,7 @@
 # Como usar?
 
 Estrutura HTML
+
 ```html
 <div class="wrapper">
   <div class="container" id="first-container">
@@ -37,8 +38,10 @@ Estrutura HTML
 </div>
 ```
 ...javascript
+
 colapser('#first-container button');
 colapser('#second-container button', true); //segundo container virá aberto
+
 ...
 
 ## Como contribuir?
