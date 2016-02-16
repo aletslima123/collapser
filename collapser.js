@@ -1,5 +1,5 @@
-var colapser = (function(){
-	var _colapser = function(elements, started)
+var collapser = (function(){
+	var _collapser = function(elements, started)
   {
     $(elements).bind("click touchstart", function(){
     	console.log(this);
@@ -12,5 +12,5 @@ var colapser = (function(){
   		$(elements).trigger('click');
   };
   
-  return _colapser;
+  return _collapser;
 })();
