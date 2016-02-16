@@ -41,8 +41,8 @@ Estrutura HTML
 chamada javascript
 
 ```javascript
-colapser('#first-container button');
-colapser('#second-container button', true); //segundo container virá aberto
+$('#first-container button').collapser();
+$('#second-container button').collapser({opened: true});
 ```
 
 ## Como contribuir?
