@@ -14,6 +14,3 @@ var colapser = (function(){
   
   return _colapser;
 })();
-
-//aqui executa o seu plugin
-colapser('#first-container button, #second-container button', false);
