@@ -37,10 +37,11 @@ Estrutura HTML
   </div>
 </div>
 ```
+
 ...javascript
 
-colapser('#first-container button');
-colapser('#second-container button', true); //segundo container virá aberto
+  colapser('#first-container button');
+  colapser('#second-container button', true); //segundo container virá aberto
 
 ...
 
